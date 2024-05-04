@@ -1,0 +1,260 @@
+[2024-05-04 16:25:01.046 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 16:25:01.968 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warning] The WebRootPath was not found: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0\wwwroot". Static files may be unavailable.
+[2024-05-04 16:25:02.052 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5000"
+[2024-05-04 16:25:02.071 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 16:25:02.074 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Production"
+[2024-05-04 16:25:02.076 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0"
+[2024-05-04 16:25:14.411 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/Products/getall""" - null null
+[2024-05-04 16:25:14.471 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-05-04 16:25:14.533 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 16:25:14.766 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 16:25:15.005 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 16:25:15.241 +03:00 ProductsApp.Services.ProductServiceImpl [Error] An error occurredThe configuration file 'appsetings.json' was not found and is not optional. The expected physical path was 'C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0\appsetings.json'.
+[2024-05-04 16:25:15.246 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:25:15.415 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 634.0864ms
+[2024-05-04 16:25:15.431 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 16:25:15.490 +03:00 Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductsApp.Pages.Products.Pages_Products_Index.ExecuteAsync() in C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\Pages\Products\Index.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2024-05-04 16:25:15.711 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Error"'
+[2024-05-04 16:25:15.725 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Error\"}". Executing page "/Error"
+[2024-05-04 16:25:15.730 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ErrorModel.OnGet" - ModelState is Valid
+[2024-05-04 16:25:15.735 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 16:25:15.746 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 16:25:15.749 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:25:15.873 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Error" in 144.6876ms
+[2024-05-04 16:25:15.877 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Error"'
+[2024-05-04 16:25:15.980 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/Products/getall""" - 500 null "text/html; charset=utf-8" 1577.4091ms
+[2024-05-04 16:25:16.001 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+[2024-05-04 16:25:16.009 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+[2024-05-04 16:25:16.016 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - null null
+[2024-05-04 16:25:16.034 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 404 0 null 24.7346ms
+[2024-05-04 16:25:16.043 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 404 0 null 34.5654ms
+[2024-05-04 16:25:16.045 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - 404 0 null 28.2934ms
+[2024-05-04 16:25:16.054 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/js/site.js", Response status code: 404
+[2024-05-04 16:25:16.064 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/css/site.css", Response status code: 404
+[2024-05-04 16:25:16.075 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/ProductsApp.styles.css", Response status code: 404
+[2024-05-04 16:28:02.740 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 16:28:03.008 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warning] The WebRootPath was not found: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0\wwwroot". Static files may be unavailable.
+[2024-05-04 16:28:03.050 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5000"
+[2024-05-04 16:28:03.056 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 16:28:03.059 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Production"
+[2024-05-04 16:28:03.064 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0"
+[2024-05-04 16:28:12.140 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/Products/getall""" - null null
+[2024-05-04 16:28:12.241 +03:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[2024-05-04 16:28:12.409 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 16:28:12.509 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 16:28:12.732 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 16:28:12.754 +03:00 ProductsApp.Services.ProductServiceImpl [Error] An error occurredThe configuration file 'appsetings.json' was not found and is not optional. The expected physical path was 'C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0\appsetings.json'.
+[2024-05-04 16:28:12.757 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:28:12.806 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 282.3609ms
+[2024-05-04 16:28:12.818 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 16:28:12.826 +03:00 Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductsApp.Pages.Products.Pages_Products_Index.ExecuteAsync() in C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\Pages\Products\Index.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2024-05-04 16:28:12.915 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Error"'
+[2024-05-04 16:28:12.927 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Error\"}". Executing page "/Error"
+[2024-05-04 16:28:12.934 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ErrorModel.OnGet" - ModelState is Valid
+[2024-05-04 16:28:12.938 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 16:28:12.951 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 16:28:12.955 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:28:13.076 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Error" in 143.7034ms
+[2024-05-04 16:28:13.135 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Error"'
+[2024-05-04 16:28:13.148 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/Products/getall""" - 500 null "text/html; charset=utf-8" 1011.4481ms
+[2024-05-04 16:28:13.278 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+[2024-05-04 16:28:13.280 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - null null
+[2024-05-04 16:28:13.285 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+[2024-05-04 16:28:13.328 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 404 0 null 50.2559ms
+[2024-05-04 16:28:13.360 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/css/site.css", Response status code: 404
+[2024-05-04 16:28:13.352 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 404 0 null 66.6202ms
+[2024-05-04 16:28:13.385 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/js/site.js", Response status code: 404
+[2024-05-04 16:28:13.342 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - 404 0 null 64.0477ms
+[2024-05-04 16:28:13.409 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/ProductsApp.styles.css", Response status code: 404
+[2024-05-04 16:29:39.545 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/Products/getall""" - null null
+[2024-05-04 16:29:39.559 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 16:29:39.563 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 16:29:39.568 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 16:29:39.575 +03:00 ProductsApp.Services.ProductServiceImpl [Error] An error occurredThe configuration file 'appsetings.json' was not found and is not optional. The expected physical path was 'C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0\appsetings.json'.
+[2024-05-04 16:29:39.581 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:29:39.595 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 29.4126ms
+[2024-05-04 16:29:39.601 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 16:29:39.619 +03:00 Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductsApp.Pages.Products.Pages_Products_Index.ExecuteAsync() in C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\Pages\Products\Index.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[2024-05-04 16:29:39.726 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Error"'
+[2024-05-04 16:29:39.732 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Error\"}". Executing page "/Error"
+[2024-05-04 16:29:39.743 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.ErrorModel.OnGet" - ModelState is Valid
+[2024-05-04 16:29:39.758 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 16:29:39.765 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 16:29:39.769 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:29:39.802 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Error" in 59.6053ms
+[2024-05-04 16:29:39.903 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+[2024-05-04 16:29:39.903 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - null null
+[2024-05-04 16:29:39.921 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Error"'
+[2024-05-04 16:29:39.933 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 404 0 null 30.4989ms
+[2024-05-04 16:29:39.962 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/css/site.css", Response status code: 404
+[2024-05-04 16:29:39.947 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/Products/getall""" - 500 null "text/html; charset=utf-8" 401.9289ms
+[2024-05-04 16:29:39.944 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - 404 0 null 40.675ms
+[2024-05-04 16:29:40.002 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/ProductsApp.styles.css", Response status code: 404
+[2024-05-04 16:29:39.969 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+[2024-05-04 16:29:40.047 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 404 0 null 77.924ms
+[2024-05-04 16:29:40.073 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/js/site.js", Response status code: 404
+[2024-05-04 16:29:43.432 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - null null
+[2024-05-04 16:29:43.440 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 16:29:43.468 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 16:29:43.473 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 16:29:43.478 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 16:29:43.484 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 16:29:43.487 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:29:43.501 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 28.6199ms
+[2024-05-04 16:29:43.514 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 16:29:43.520 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - 200 null "text/html; charset=utf-8" 87.5864ms
+[2024-05-04 16:29:44.513 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+[2024-05-04 16:29:44.522 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - null null
+[2024-05-04 16:29:44.541 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 404 0 null 28.0799ms
+[2024-05-04 16:29:44.561 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/css/site.css", Response status code: 404
+[2024-05-04 16:29:44.577 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+[2024-05-04 16:29:44.603 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 404 0 null 25.7252ms
+[2024-05-04 16:29:44.622 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/js/site.js", Response status code: 404
+[2024-05-04 16:29:44.553 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - 404 0 null 31.5146ms
+[2024-05-04 16:29:44.645 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/ProductsApp.styles.css", Response status code: 404
+[2024-05-04 16:29:46.442 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - null null
+[2024-05-04 16:29:46.447 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 16:29:46.450 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 16:29:46.459 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 16:29:46.463 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 16:29:46.466 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 16:29:46.473 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:29:46.481 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 22.3132ms
+[2024-05-04 16:29:46.530 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 16:29:46.543 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - 200 null "text/html; charset=utf-8" 101.6418ms
+[2024-05-04 16:29:46.565 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+[2024-05-04 16:29:46.567 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - null null
+[2024-05-04 16:29:46.582 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - 404 0 null 14.3684ms
+[2024-05-04 16:29:46.593 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/ProductsApp.styles.css", Response status code: 404
+[2024-05-04 16:29:46.568 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+[2024-05-04 16:29:46.629 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 404 0 null 60.7848ms
+[2024-05-04 16:29:46.662 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/js/site.js", Response status code: 404
+[2024-05-04 16:29:46.575 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 404 0 null 9.7519ms
+[2024-05-04 16:29:46.684 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/css/site.css", Response status code: 404
+[2024-05-04 16:29:47.543 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/Privacy""" - null null
+[2024-05-04 16:29:47.550 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Privacy"'
+[2024-05-04 16:29:47.564 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Privacy\"}". Executing page "/Privacy"
+[2024-05-04 16:29:47.567 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.PrivacyModel.OnGet" - ModelState is Valid
+[2024-05-04 16:29:47.571 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 16:29:47.580 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 16:29:47.583 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:29:47.598 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Privacy" in 31.7087ms
+[2024-05-04 16:29:47.641 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Privacy"'
+[2024-05-04 16:29:47.653 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/Privacy""" - 200 null "text/html; charset=utf-8" 109.2937ms
+[2024-05-04 16:29:47.684 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+[2024-05-04 16:29:47.684 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - null null
+[2024-05-04 16:29:47.700 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - 404 0 null 15.5678ms
+[2024-05-04 16:29:47.720 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/ProductsApp.styles.css", Response status code: 404
+[2024-05-04 16:29:47.685 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+[2024-05-04 16:29:47.692 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 404 0 null 8.3242ms
+[2024-05-04 16:29:47.815 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/css/site.css", Response status code: 404
+[2024-05-04 16:29:47.776 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 404 0 null 87.2248ms
+[2024-05-04 16:29:47.861 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/js/site.js", Response status code: 404
+[2024-05-04 16:29:49.003 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - null null
+[2024-05-04 16:29:49.013 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 16:29:49.016 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 16:29:49.020 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 16:29:49.023 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 16:29:49.032 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 16:29:49.036 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:29:49.043 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 23.9749ms
+[2024-05-04 16:29:49.130 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+[2024-05-04 16:29:49.146 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 404 0 null 11.4141ms
+[2024-05-04 16:29:49.167 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/css/site.css", Response status code: 404
+[2024-05-04 16:29:49.136 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 16:29:49.130 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - null null
+[2024-05-04 16:29:49.222 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - 404 0 null 91.4063ms
+[2024-05-04 16:29:49.233 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/ProductsApp.styles.css", Response status code: 404
+[2024-05-04 16:29:49.131 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+[2024-05-04 16:29:49.253 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 404 0 null 121.2966ms
+[2024-05-04 16:29:49.220 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - 200 null "text/html; charset=utf-8" 217.2428ms
+[2024-05-04 16:29:49.269 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/js/site.js", Response status code: 404
+[2024-05-04 16:29:50.304 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - null null
+[2024-05-04 16:29:50.326 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 16:29:50.336 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 16:29:50.340 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 16:29:50.368 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 16:29:50.371 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 16:29:50.373 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 16:29:50.387 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 47.8196ms
+[2024-05-04 16:29:50.464 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - null null
+[2024-05-04 16:29:50.472 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/css/site.css""" - 404 0 null 8.4559ms
+[2024-05-04 16:29:50.482 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/css/site.css", Response status code: 404
+[2024-05-04 16:29:50.467 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 16:29:50.491 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/""" - 200 null "text/html; charset=utf-8" 187.2112ms
+[2024-05-04 16:29:50.464 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - null null
+[2024-05-04 16:29:50.519 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/js/site.js""" - 404 0 null 55.3348ms
+[2024-05-04 16:29:50.527 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/js/site.js", Response status code: 404
+[2024-05-04 16:29:50.464 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - null null
+[2024-05-04 16:29:50.558 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/ProductsApp.styles.css""" - 404 0 null 93.6542ms
+[2024-05-04 16:29:50.573 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/ProductsApp.styles.css", Response status code: 404
+[2024-05-04 16:30:02.901 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5000""""/Products""" - null null
+[2024-05-04 16:30:02.907 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5000""""/Products""" - 404 0 null 6.3092ms
+[2024-05-04 16:30:02.987 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5000""""/Products", Response status code: 404
+[2024-05-04 16:32:07.212 +03:00 Microsoft.Hosting.Lifetime [Information] Application is shutting down...

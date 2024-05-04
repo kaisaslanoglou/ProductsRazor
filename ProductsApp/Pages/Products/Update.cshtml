@@ -1,0 +1,62 @@
+﻿@page "/Products/{id}/Update"
+@model ProductsApp.Pages.Products.UpdateModel
+@{
+}
+
+<form method="POST">
+    <div class="row mb-3">
+        <label for="name" class="col-md-1">Όνομα</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="name" id="name"
+                   placeholder="Enter name" value="@Model.ProductUpdateDTO!.Name" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="price" class="col-md-1">Τιμή</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="price" id="price"
+                   placeholder="Enter price" value="@Model.ProductUpdateDTO!.Price" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="quantity" class="col-md-1">Ποσότητα</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="quantity" id="quantity"
+                   placeholder="Enter quantity" value="@Model.ProductUpdateDTO!.Quantity" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="colour" class="col-md-1">Χρώμα</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="colour" id="colour"
+                   placeholder="Enter colour" value="@Model.ProductUpdateDTO!.Colour" />
+        </div>
+    </div>
+
+    <div>
+        <div class="row mb-3">
+            <div class="offset-md-1 col-md-3 d-grid">
+                <button class="btn btn-primary" type="Submit">Submit</button>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="offset-md-1 col-md-3 d-grid">
+                <a class="btn btn-outline-primary" href="/Products/getall">Cancel</a>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+<div>
+    @if (Model.ErrorArray!.Count != 0)
+    {
+        @foreach (var error in Model.ErrorArray)
+        {
+            <div>
+                <p>@error.Message</p>
+            </div>
+        }
+    }
+</div>

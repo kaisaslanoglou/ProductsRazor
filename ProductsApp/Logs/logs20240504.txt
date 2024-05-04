@@ -1,0 +1,958 @@
+[2024-05-04 17:52:03.171 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 17:52:06.520 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 17:52:06.615 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 17:52:07.113 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 17:52:07.121 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 17:52:07.137 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 17:52:19.219 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 17:52:21.531 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 17:52:21.803 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 17:52:21.836 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 17:52:21.840 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 17:52:21.862 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 17:52:21.865 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 17:52:22.254 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 399.1555ms
+[2024-05-04 17:52:22.387 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 17:52:22.402 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 3203.9394ms
+[2024-05-04 17:52:24.523 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/lib/bootstrap/dist/css/bootstrap.min.css""" - null null
+[2024-05-04 17:52:24.626 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+[2024-05-04 17:52:24.635 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/lib/bootstrap/dist/css/bootstrap.min.css""" - 200 162720 "text/css" 112.1288ms
+[2024-05-04 17:52:24.864 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null
+[2024-05-04 17:52:24.876 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 17:52:24.911 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\css\site.css"'
+[2024-05-04 17:52:24.958 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/ProductsApp.styles.css"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\obj\Debug\net8.0\scopedcss\bundle\ProductsApp.styles.css"'
+[2024-05-04 17:52:25.067 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 200 1129 "text/css" 190.4833ms
+[2024-05-04 17:52:25.058 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 200 362 "text/css" 193.5569ms
+[2024-05-04 17:52:26.081 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/lib/jquery/dist/jquery.min.js""" - null null
+[2024-05-04 17:52:26.145 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\lib\jquery\dist\jquery.min.js"'
+[2024-05-04 17:52:26.153 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/lib/jquery/dist/jquery.min.js""" - 200 89501 "text/javascript" 72.4762ms
+[2024-05-04 17:52:26.256 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+[2024-05-04 17:52:26.256 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null
+[2024-05-04 17:52:26.276 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\js\site.js"'
+[2024-05-04 17:52:26.286 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 30.1489ms
+[2024-05-04 17:52:26.311 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+[2024-05-04 17:52:26.401 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 200 78468 "text/javascript" 146.2443ms
+[2024-05-04 17:52:27.422 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 17:52:27.447 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 24.6346ms
+[2024-05-04 17:52:27.494 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 17:52:27.768 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 274.6316ms
+[2024-05-04 17:52:29.114 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/favicon.ico""" - null null
+[2024-05-04 17:52:29.132 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\favicon.ico"'
+[2024-05-04 17:52:29.149 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/favicon.ico""" - 200 5430 "image/x-icon" 34.998ms
+[2024-05-04 17:52:32.188 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 17:52:32.242 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 17:52:32.247 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 17:52:32.258 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 17:52:32.274 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 17:52:32.284 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 17:52:32.298 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 17:52:32.392 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 135.4373ms
+[2024-05-04 17:52:32.444 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 17:52:32.451 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 262.6086ms
+[2024-05-04 17:52:33.390 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/lib/bootstrap/dist/css/bootstrap.min.css""" - null null
+[2024-05-04 17:52:33.391 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null
+[2024-05-04 17:52:33.433 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+[2024-05-04 17:52:33.395 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null
+[2024-05-04 17:52:33.395 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 17:52:33.402 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/lib/jquery/dist/jquery.min.js""" - null null
+[2024-05-04 17:52:33.450 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 17:52:33.395 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 17:52:33.566 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\js\site.js"'
+[2024-05-04 17:52:33.581 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 149.7667ms
+[2024-05-04 17:52:33.551 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\css\site.css"'
+[2024-05-04 17:52:33.600 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 200 362 "text/css" 208.0972ms
+[2024-05-04 17:52:33.595 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/ProductsApp.styles.css"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\obj\Debug\net8.0\scopedcss\bundle\ProductsApp.styles.css"'
+[2024-05-04 17:52:33.620 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 200 1129 "text/css" 225.2608ms
+[2024-05-04 17:52:33.643 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 247.9737ms
+[2024-05-04 17:52:33.734 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+[2024-05-04 17:52:33.765 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 315.4895ms
+[2024-05-04 17:52:33.744 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\lib\jquery\dist\jquery.min.js"'
+[2024-05-04 17:52:33.767 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+[2024-05-04 17:52:33.806 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 200 78468 "text/javascript" 410.7417ms
+[2024-05-04 17:52:33.850 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/lib/jquery/dist/jquery.min.js""" - 200 89501 "text/javascript" 448.0362ms
+[2024-05-04 17:52:33.864 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/lib/bootstrap/dist/css/bootstrap.min.css""" - 200 162720 "text/css" 473.4256ms
+[2024-05-04 17:52:34.429 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/favicon.ico""" - null null
+[2024-05-04 17:52:34.466 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\wwwroot\favicon.ico"'
+[2024-05-04 17:52:34.485 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/favicon.ico""" - 200 5430 "image/x-icon" 55.2783ms
+[2024-05-04 17:52:51.940 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 17:52:51.968 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 17:52:51.986 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 17:52:52.341 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 17:52:54.178 +03:00 ProductsApp.Services.ProductServiceImpl [Error] An error occurredThe configuration file 'appsetings.json' was not found and is not optional. The expected physical path was 'C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0\appsetings.json'.
+[2024-05-04 17:52:54.368 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:01:25.218 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 18:01:27.248 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 18:01:27.253 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 18:01:27.261 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 18:01:27.266 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 18:01:27.273 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 18:01:35.552 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 18:01:37.217 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 18:01:37.516 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 18:01:37.559 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:01:37.569 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 18:01:37.578 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:01:37.595 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:01:38.099 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 562.8315ms
+[2024-05-04 18:01:38.372 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:01:40.069 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 18:01:41.314 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:01:41.327 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 6329.5853ms
+[2024-05-04 18:01:42.399 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 4027.1368ms
+[2024-05-04 18:01:42.411 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:01:42.583 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:01:42.920 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 1606.2437ms
+[2024-05-04 18:01:42.939 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:01:43.422 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:01:44.596 +03:00 ProductsApp.Services.ProductServiceImpl [Error] An error occurredThe configuration file 'appsetings.json' was not found and is not optional. The expected physical path was 'C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\bin\Debug\net8.0\appsetings.json'.
+[2024-05-04 18:01:44.788 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:05:33.358 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 18:05:35.001 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 18:05:35.253 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 18:05:35.652 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 18:05:35.655 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 18:05:35.658 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 18:05:43.502 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 18:05:44.172 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 18:05:44.628 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 18:05:44.667 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:05:44.833 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 18:05:44.847 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:05:44.873 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:05:45.284 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 644.2681ms
+[2024-05-04 18:05:45.294 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 18:05:45.305 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 1821.045ms
+[2024-05-04 18:05:45.517 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:05:45.615 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:05:45.535 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 18:05:45.765 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 248.1597ms
+[2024-05-04 18:05:45.797 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-05-04 18:05:45.814 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 279.4955ms
+[2024-05-04 18:05:47.392 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 1779.9376ms
+[2024-05-04 18:05:51.392 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:05:51.666 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:05:51.946 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:05:52.738 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:05:57.131 +03:00 ProductsApp.Services.ProductServiceImpl [Error] An error occurredExecuteReader: Connection property has not been initialized.
+[2024-05-04 18:05:57.340 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:20:05.395 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 18:20:06.899 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 18:20:06.948 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 18:20:06.955 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 18:20:06.960 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 18:20:06.962 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 18:20:18.368 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 18:20:19.193 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 18:20:19.496 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 18:20:19.915 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:20:19.925 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 18:20:19.945 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:20:20.147 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:20:20.507 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 599.9283ms
+[2024-05-04 18:20:20.837 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:20:20.839 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:20:20.851 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 18:20:20.915 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 18:20:20.921 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 2571.7618ms
+[2024-05-04 18:20:20.935 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-05-04 18:20:20.962 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 47.3486ms
+[2024-05-04 18:20:21.099 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 261.9855ms
+[2024-05-04 18:20:21.204 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 364.18ms
+[2024-05-04 18:20:23.940 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:20:24.435 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:20:24.496 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:20:25.079 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:20:26.859 +03:00 ProductsApp.Services.ProductServiceImpl [Error] An error occurredExecuteReader: Connection property has not been initialized.
+[2024-05-04 18:20:27.131 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:22:54.003 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 18:22:56.130 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 18:22:56.542 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 18:22:56.874 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 18:22:57.133 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 18:22:57.136 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 18:23:02.936 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 18:23:05.503 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 18:23:06.765 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 18:23:06.799 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:23:06.806 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 18:23:06.817 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:23:06.820 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:23:07.340 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 552.1608ms
+[2024-05-04 18:23:07.571 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:23:07.635 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:23:07.921 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 18:23:07.969 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 5051.8783ms
+[2024-05-04 18:23:07.987 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 418.6053ms
+[2024-05-04 18:23:09.360 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:23:09.854 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 2218.3424ms
+[2024-05-04 18:23:09.936 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:23:10.103 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:23:10.599 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:25:24.770 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:25:32.760 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 142617.4643ms
+[2024-05-04 18:25:34.072 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 18:25:34.123 +03:00 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductsApp.Pages.Products.Pages_Products_Index.ExecuteAsync() in C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\Pages\Products\Index.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-04 18:25:34.804 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:25:35.325 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:25:35.336 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 500 null "text/html; charset=utf-8" 145976.5374ms
+[2024-05-04 18:25:35.343 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:25:35.369 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:25:44.940 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:26:02.332 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 26970.7133ms
+[2024-05-04 18:26:04.112 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 18:26:09.816 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 18:26:09.856 +03:00 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductsApp.Pages.Products.Pages_Products_Index.ExecuteAsync() in C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp\Pages\Products\Index.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-05-04 18:26:09.908 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 500 null "text/html; charset=utf-8" 35113.2373ms
+[2024-05-04 18:26:09.965 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 18:26:10.504 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 18:26:10.522 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:26:16.210 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 18:26:20.301 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:26:21.362 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:26:23.410 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:26:23.756 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 13234.1424ms
+[2024-05-04 18:26:24.639 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:26:24.642 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 18:26:24.644 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:26:24.647 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 20535.6622ms
+[2024-05-04 18:26:24.660 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:37:53.876 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 18:37:55.542 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 18:37:56.843 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 18:37:57.526 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 18:37:57.548 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 18:37:57.553 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 18:38:03.488 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 18:38:04.808 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 18:38:05.099 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 18:38:05.302 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:38:05.315 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 18:38:05.379 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:38:05.383 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:38:05.685 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 400.5704ms
+[2024-05-04 18:38:05.695 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 18:38:05.884 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:38:05.939 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 2467.5492ms
+[2024-05-04 18:38:06.415 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 18:38:06.443 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 558.7652ms
+[2024-05-04 18:38:06.463 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-05-04 18:38:06.466 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:38:06.467 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 52.2803ms
+[2024-05-04 18:38:09.088 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 2622.4657ms
+[2024-05-04 18:38:11.706 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:38:11.746 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:38:11.762 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:38:12.236 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:38:15.100 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:38:15.412 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 3641.7992ms
+[2024-05-04 18:38:15.418 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 18:38:15.430 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 3724.3653ms
+[2024-05-04 18:38:15.750 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:38:15.750 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:38:15.854 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 104.2377ms
+[2024-05-04 18:38:16.015 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 265.2428ms
+[2024-05-04 18:38:28.181 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Product/Create""" - null null
+[2024-05-04 18:38:28.272 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Product/Create""" - 404 0 null 90.4271ms
+[2024-05-04 18:38:28.295 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Product/Create", Response status code: 404
+[2024-05-04 18:40:25.621 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 18:40:27.633 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 18:40:27.666 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 18:40:27.674 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 18:40:27.679 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 18:40:27.682 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 18:40:35.016 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 18:40:35.901 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 18:40:36.254 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 18:40:36.377 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:40:36.384 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 18:40:36.393 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:40:36.400 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:40:36.838 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 443.1745ms
+[2024-05-04 18:40:37.589 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:40:37.679 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 18:40:37.696 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 2695.6577ms
+[2024-05-04 18:40:37.746 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:40:37.730 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 140.0988ms
+[2024-05-04 18:40:39.787 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 2040.6293ms
+[2024-05-04 18:40:44.474 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:40:44.515 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:40:44.528 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:40:44.857 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:40:49.086 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:40:49.287 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 4750.2402ms
+[2024-05-04 18:40:49.416 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:40:49.417 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:40:50.072 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 655.8442ms
+[2024-05-04 18:40:50.042 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 18:40:50.492 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 1075.0244ms
+[2024-05-04 18:40:51.059 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 6585.3131ms
+[2024-05-04 18:40:52.996 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/Create""" - null null
+[2024-05-04 18:40:53.061 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Create"'
+[2024-05-04 18:40:53.599 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Create\"}". Executing page "/Products/Create"
+[2024-05-04 18:40:53.668 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.CreateModel.OnGet" - ModelState is Valid
+[2024-05-04 18:40:53.723 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 18:40:53.735 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:40:53.756 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:40:53.855 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Create" in 245.5327ms
+[2024-05-04 18:40:53.859 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Create"'
+[2024-05-04 18:40:53.865 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/Create""" - 200 null "text/html; charset=utf-8" 868.3104ms
+[2024-05-04 18:40:54.073 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:40:54.073 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:40:54.083 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 10.1101ms
+[2024-05-04 18:40:56.085 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 2012.2756ms
+[2024-05-04 18:41:43.596 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7154""""/Products/Create""" - "application/x-www-form-urlencoded" 227
+[2024-05-04 18:41:43.630 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Create"'
+[2024-05-04 18:41:43.633 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Create\"}". Executing page "/Products/Create"
+[2024-05-04 18:41:43.749 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.CreateModel.OnPost" - ModelState is Valid
+[2024-05-04 18:41:44.084 +03:00 ProductsApp.Services.ProductServiceImpl [Information] Success in insert
+[2024-05-04 18:41:44.099 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnPost", returned result "".
+[2024-05-04 18:41:44.102 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 18:41:44.105 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:41:44.161 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Create" in 524.5196ms
+[2024-05-04 18:41:44.179 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Create"'
+[2024-05-04 18:41:44.206 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 18:41:44.214 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7154""""/Products/Create""" - 302 null "text/html; charset=utf-8" 618.8757ms
+[2024-05-04 18:41:44.224 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 18:41:44.234 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 18:41:44.238 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 18:41:44.252 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 18:41:44.271 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 33.135ms
+[2024-05-04 18:41:44.434 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 18:41:44.435 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 18:41:44.445 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 18:41:44.488 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 284.2466ms
+[2024-05-04 18:41:44.454 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 19.4611ms
+[2024-05-04 18:41:44.724 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 289.4273ms
+[2024-05-04 19:00:59.009 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:01:04.213 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:01:04.241 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:01:04.715 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:01:04.723 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:01:04.727 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:01:12.638 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:01:14.777 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:01:15.191 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:01:15.221 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:01:15.248 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:01:15.258 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:01:15.262 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:01:15.615 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 410.0641ms
+[2024-05-04 19:01:15.633 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:01:15.669 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 3076.7034ms
+[2024-05-04 19:01:15.878 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:01:16.129 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 19:01:16.195 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:01:16.223 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-05-04 19:01:16.249 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 119.5496ms
+[2024-05-04 19:01:16.739 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 860.4927ms
+[2024-05-04 19:01:17.768 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 1573.2774ms
+[2024-05-04 19:01:22.348 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:01:23.028 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:01:23.137 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:01:23.495 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:01:27.441 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:01:28.074 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 4929.7164ms
+[2024-05-04 19:01:28.096 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:01:28.097 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:01:28.238 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:01:28.294 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 5945.9605ms
+[2024-05-04 19:01:28.248 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 152.6123ms
+[2024-05-04 19:01:29.126 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 1029.1815ms
+[2024-05-04 19:01:43.531 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/1/Update""" - null null
+[2024-05-04 19:01:43.594 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Update"'
+[2024-05-04 19:01:43.643 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+[2024-05-04 19:01:43.733 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+[2024-05-04 19:01:44.000 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:01:44.053 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Update" in 406.2806ms
+[2024-05-04 19:01:44.220 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:01:44.220 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:01:44.227 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Update"'
+[2024-05-04 19:01:44.245 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 18.6719ms
+[2024-05-04 19:01:44.261 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/1/Update""" - 200 null "text/html; charset=utf-8" 729.2911ms
+[2024-05-04 19:01:45.213 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 993.5438ms
+[2024-05-04 19:01:50.971 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7154""""/Products/1/Update""" - "application/x-www-form-urlencoded" 225
+[2024-05-04 19:01:51.067 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Update"'
+[2024-05-04 19:01:51.073 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+[2024-05-04 19:01:51.140 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.UpdateModel.OnPost" - ModelState is Valid
+[2024-05-04 19:01:51.337 +03:00 ProductsApp.Services.ProductServiceImpl [Information] Success in updating
+[2024-05-04 19:01:51.352 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnPost", returned result "".
+[2024-05-04 19:01:51.355 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:01:51.363 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:01:51.376 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Update" in 299.8415ms
+[2024-05-04 19:01:51.383 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Update"'
+[2024-05-04 19:01:51.390 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7154""""/Products/1/Update""" - 302 null "text/html; charset=utf-8" 419.4182ms
+[2024-05-04 19:01:51.404 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:01:51.421 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:01:51.436 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:01:51.443 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:01:51.464 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:01:51.476 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 32.3799ms
+[2024-05-04 19:01:51.650 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:01:51.654 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:01:51.813 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:01:51.863 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 460.4161ms
+[2024-05-04 19:01:51.820 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 169.8911ms
+[2024-05-04 19:01:51.984 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 330.3709ms
+[2024-05-04 19:01:53.990 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/1/Update""" - null null
+[2024-05-04 19:01:54.022 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Update"'
+[2024-05-04 19:01:54.026 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+[2024-05-04 19:01:54.042 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+[2024-05-04 19:01:54.094 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:01:54.122 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Update" in 82.4237ms
+[2024-05-04 19:01:54.287 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:01:54.288 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:01:54.293 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Update"'
+[2024-05-04 19:01:54.773 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/1/Update""" - 200 null "text/html; charset=utf-8" 782.9063ms
+[2024-05-04 19:01:54.326 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 39.2701ms
+[2024-05-04 19:01:55.001 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 712.1773ms
+[2024-05-04 19:02:00.291 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7154""""/Products/1/Update""" - "application/x-www-form-urlencoded" 224
+[2024-05-04 19:02:00.373 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Update"'
+[2024-05-04 19:02:00.377 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+[2024-05-04 19:02:00.386 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.UpdateModel.OnPost" - ModelState is Valid
+[2024-05-04 19:02:00.420 +03:00 ProductsApp.Services.ProductServiceImpl [Information] Success in updating
+[2024-05-04 19:02:00.424 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnPost", returned result "".
+[2024-05-04 19:02:00.426 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:02:00.436 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:02:00.443 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Update" in 60.2361ms
+[2024-05-04 19:02:00.458 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Update"'
+[2024-05-04 19:02:00.468 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7154""""/Products/1/Update""" - 302 null "text/html; charset=utf-8" 177.6103ms
+[2024-05-04 19:02:00.463 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:02:00.540 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:02:00.546 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:02:00.552 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:02:00.558 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:02:00.576 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 24.2223ms
+[2024-05-04 19:02:00.885 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:02:00.915 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:02:00.952 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:02:00.985 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 521.8002ms
+[2024-05-04 19:02:00.959 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 73.9071ms
+[2024-05-04 19:02:01.071 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 155.7522ms
+[2024-05-04 19:02:02.811 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/Create""" - null null
+[2024-05-04 19:02:02.836 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Create"'
+[2024-05-04 19:02:02.859 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Create\"}". Executing page "/Products/Create"
+[2024-05-04 19:02:02.879 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.CreateModel.OnGet" - ModelState is Valid
+[2024-05-04 19:02:02.911 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:02:02.930 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:02:02.937 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:02:03.080 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Create" in 206.1583ms
+[2024-05-04 19:02:03.114 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:02:03.114 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:02:03.127 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Create"'
+[2024-05-04 19:02:03.188 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/Create""" - 200 null "text/html; charset=utf-8" 377.1035ms
+[2024-05-04 19:02:03.181 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 66.3366ms
+[2024-05-04 19:02:03.545 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 430.8606ms
+[2024-05-04 19:02:06.071 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Students/getall""" - null null
+[2024-05-04 19:02:06.126 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Students/getall""" - 404 0 null 54.552ms
+[2024-05-04 19:02:06.967 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Students/getall", Response status code: 404
+[2024-05-04 19:09:19.513 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:09:21.002 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:09:21.107 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:09:21.121 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:09:21.181 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:09:21.188 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:09:28.326 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:09:29.500 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:09:29.832 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:09:29.865 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:09:29.871 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:09:29.903 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:09:29.908 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:09:30.256 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 412.973ms
+[2024-05-04 19:09:30.485 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:09:30.485 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:09:30.489 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:09:31.425 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 921.8929ms
+[2024-05-04 19:09:31.483 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 3174.2522ms
+[2024-05-04 19:09:33.348 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:09:33.976 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 3490.9696ms
+[2024-05-04 19:09:34.853 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:09:35.603 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:09:35.912 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:09:37.889 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:09:38.457 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 2840.517ms
+[2024-05-04 19:09:38.538 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:09:38.538 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:09:38.541 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:09:38.554 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 16.7277ms
+[2024-05-04 19:09:38.597 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 5249.1198ms
+[2024-05-04 19:09:38.734 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 195.8556ms
+[2024-05-04 19:11:46.468 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:11:48.161 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:11:48.225 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:11:48.231 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:11:48.234 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:11:48.237 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:11:58.424 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:12:01.664 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:12:02.182 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:12:02.232 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:12:02.236 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:12:02.248 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:12:02.253 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:12:03.236 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 1028.4257ms
+[2024-05-04 19:12:03.700 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:12:04.164 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:12:04.185 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 5816.8401ms
+[2024-05-04 19:12:04.197 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:12:04.210 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 512.8314ms
+[2024-05-04 19:12:06.030 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 1833.4276ms
+[2024-05-04 19:12:09.127 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:12:09.221 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:12:09.299 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:12:09.634 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:12:12.460 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:12:13.028 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 3724.6ms
+[2024-05-04 19:12:13.035 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:12:13.040 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 3913.3917ms
+[2024-05-04 19:12:13.075 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:12:13.089 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 13.9142ms
+[2024-05-04 19:12:13.093 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:12:13.297 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 204.3912ms
+[2024-05-04 19:12:25.391 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/1/Update""" - null null
+[2024-05-04 19:12:25.470 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Update"'
+[2024-05-04 19:12:25.519 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+[2024-05-04 19:12:25.604 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+[2024-05-04 19:12:25.971 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:12:26.035 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Update" in 512.5588ms
+[2024-05-04 19:12:26.195 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:12:26.195 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:12:26.212 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Update"'
+[2024-05-04 19:12:26.254 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 58.9468ms
+[2024-05-04 19:12:26.256 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/1/Update""" - 200 null "text/html; charset=utf-8" 865.5425ms
+[2024-05-04 19:12:26.430 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 234.3584ms
+[2024-05-04 19:12:27.738 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:12:27.942 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:12:27.945 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:12:27.953 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:12:27.996 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:12:28.009 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 60.5203ms
+[2024-05-04 19:12:28.012 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:12:28.020 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 282.49ms
+[2024-05-04 19:12:28.177 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:12:28.178 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:12:28.216 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 39.7209ms
+[2024-05-04 19:12:28.398 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 219.3288ms
+[2024-05-04 19:12:35.669 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/Create""" - null null
+[2024-05-04 19:12:35.802 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Create"'
+[2024-05-04 19:12:35.823 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Create\"}". Executing page "/Products/Create"
+[2024-05-04 19:12:35.834 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.CreateModel.OnGet" - ModelState is Valid
+[2024-05-04 19:12:35.844 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:12:35.848 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:12:35.851 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:12:35.882 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Create" in 53.0701ms
+[2024-05-04 19:12:36.069 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:12:36.079 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:12:36.084 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Create"'
+[2024-05-04 19:12:36.095 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 25.8682ms
+[2024-05-04 19:12:36.119 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/Create""" - 200 null "text/html; charset=utf-8" 449.5187ms
+[2024-05-04 19:12:36.404 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 325.1229ms
+[2024-05-04 19:12:38.336 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:12:38.364 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:12:38.372 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:12:38.378 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:12:38.405 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:12:38.421 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 42.8641ms
+[2024-05-04 19:12:38.429 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:12:38.473 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 137.2202ms
+[2024-05-04 19:12:38.625 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:12:38.630 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:12:38.806 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 180.9047ms
+[2024-05-04 19:12:38.936 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 306.039ms
+[2024-05-04 19:12:43.223 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:12:43.247 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:12:43.251 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:12:43.261 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:12:43.266 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:12:43.270 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:12:43.311 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:12:43.320 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 59.1502ms
+[2024-05-04 19:12:43.718 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:12:43.721 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:12:43.758 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:12:43.834 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 611.1297ms
+[2024-05-04 19:12:43.784 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 66.2069ms
+[2024-05-04 19:12:43.918 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 197.7862ms
+[2024-05-04 19:24:09.542 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:24:12.683 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:24:13.301 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:24:15.507 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:24:15.511 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:24:15.516 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:24:17.285 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:24:17.638 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:24:20.866 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:24:20.962 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:24:21.289 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:24:21.290 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:24:21.366 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:24:21.373 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:24:21.382 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:24:21.393 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:24:21.861 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:24:22.058 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 680.1401ms
+[2024-05-04 19:24:22.383 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:24:22.528 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:24:22.577 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 6052.3944ms
+[2024-05-04 19:24:22.630 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 19:24:22.641 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:24:22.726 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-05-04 19:24:22.899 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 269.0056ms
+[2024-05-04 19:24:22.935 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 552.1964ms
+[2024-05-04 19:24:26.746 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 4105.8464ms
+[2024-05-04 19:24:26.759 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:24:27.138 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:24:27.305 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:24:27.311 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:24:30.601 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:24:30.601 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:24:31.217 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 3906.8274ms
+[2024-05-04 19:24:31.249 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 9918.8197ms
+[2024-05-04 19:24:31.262 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:24:31.253 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:24:31.253 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:24:31.259 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:24:31.252 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:24:31.301 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 4541.2012ms
+[2024-05-04 19:24:31.271 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 16116.7001ms
+[2024-05-04 19:24:31.335 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 83.219ms
+[2024-05-04 19:24:31.355 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 102.4424ms
+[2024-05-04 19:24:31.370 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:24:32.132 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 879.1404ms
+[2024-05-04 19:24:36.468 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 19:24:36.482 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-05-04 19:24:36.486 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 19.0792ms
+[2024-05-04 19:24:36.511 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:24:36.543 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 32.8168ms
+[2024-05-04 19:24:36.556 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:24:37.434 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:24:37.447 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 13.5669ms
+[2024-05-04 19:24:37.482 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:24:37.524 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 41.5057ms
+[2024-05-04 19:24:49.707 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/7/Update""" - null null
+[2024-05-04 19:24:49.745 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Update"'
+[2024-05-04 19:24:49.842 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+[2024-05-04 19:24:49.997 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+[2024-05-04 19:24:50.223 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:24:50.308 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Update" in 450.5053ms
+[2024-05-04 19:24:50.313 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Update"'
+[2024-05-04 19:24:50.379 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/7/Update""" - 200 null "text/html; charset=utf-8" 671.6086ms
+[2024-05-04 19:24:50.473 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:24:50.473 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:24:50.498 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 25.4665ms
+[2024-05-04 19:24:50.562 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 89.2675ms
+[2024-05-04 19:24:52.311 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:24:52.331 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:24:52.379 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:24:52.383 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:24:52.489 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:24:52.505 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 122.4467ms
+[2024-05-04 19:24:52.632 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:24:52.638 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 327.052ms
+[2024-05-04 19:24:52.690 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:24:52.714 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:24:52.715 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:24:52.733 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 43.8773ms
+[2024-05-04 19:24:52.756 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 41.5283ms
+[2024-05-04 19:24:52.863 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:24:53.112 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 396.9471ms
+[2024-05-04 19:27:13.760 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:27:22.110 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:27:22.454 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:27:22.461 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:27:22.477 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:27:22.508 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:27:31.019 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:27:32.674 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:27:33.014 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:27:33.045 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:27:33.050 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:27:33.072 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:27:33.076 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:27:33.416 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 390.8524ms
+[2024-05-04 19:27:33.587 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:27:33.622 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 2617.6442ms
+[2024-05-04 19:27:35.885 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:27:36.274 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:27:39.439 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 3553.5469ms
+[2024-05-04 19:27:41.815 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 5543.0842ms
+[2024-05-04 19:28:36.372 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:28:36.455 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:28:36.471 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:28:36.835 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:28:37.846 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:28:37.977 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 1501.6612ms
+[2024-05-04 19:28:38.793 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:28:38.722 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:28:39.236 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 513.8311ms
+[2024-05-04 19:28:39.163 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:28:39.408 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 3038.0547ms
+[2024-05-04 19:28:38.397 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:28:39.424 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:28:39.424 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 631.3188ms
+[2024-05-04 19:28:39.442 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 1045.9043ms
+[2024-05-04 19:28:48.986 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/7/Update""" - null null
+[2024-05-04 19:28:49.115 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Update"'
+[2024-05-04 19:28:49.153 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+[2024-05-04 19:28:49.235 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+[2024-05-04 19:28:49.350 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:28:49.785 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Update" in 628.7668ms
+[2024-05-04 19:28:49.838 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:28:49.839 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:28:49.871 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Update"'
+[2024-05-04 19:28:49.883 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 44.4364ms
+[2024-05-04 19:28:49.899 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/7/Update""" - 200 null "text/html; charset=utf-8" 920.9337ms
+[2024-05-04 19:28:49.987 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 148.2231ms
+[2024-05-04 19:28:52.007 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:28:52.130 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:28:52.326 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:28:52.337 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:28:52.363 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:28:52.377 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 43.9745ms
+[2024-05-04 19:28:52.805 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:28:52.975 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 170.5767ms
+[2024-05-04 19:28:52.961 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:28:52.993 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 986.092ms
+[2024-05-04 19:28:52.867 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:28:53.023 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 156.4178ms
+[2024-05-04 19:28:53.035 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:28:52.911 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:28:53.799 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 887.8141ms
+[2024-05-04 19:32:31.276 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:32:34.623 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:32:34.638 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:32:34.648 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:32:34.657 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:32:34.659 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:32:46.443 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:32:48.114 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:32:49.133 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:32:49.177 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:32:49.366 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:32:49.511 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:32:49.563 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:32:50.266 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 1112.7878ms
+[2024-05-04 19:32:50.310 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:32:50.341 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 3925.921ms
+[2024-05-04 19:32:51.860 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:32:52.384 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:32:53.736 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 1876.0972ms
+[2024-05-04 19:32:54.928 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 2543.9291ms
+[2024-05-04 19:32:55.641 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/1/Delete""" - null null
+[2024-05-04 19:32:55.782 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Delete"'
+[2024-05-04 19:32:55.966 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Delete\"}". Executing page "/Products/Delete"
+[2024-05-04 19:32:56.352 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.DeleteModel.OnGet" - ModelState is Valid
+[2024-05-04 19:32:59.922 +03:00 ProductsApp.Services.ProductServiceImpl [Information] Success in delete
+[2024-05-04 19:32:59.949 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:32:59.985 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:32:59.988 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:33:00.017 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Delete" in 4025.652ms
+[2024-05-04 19:33:00.124 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:33:00.139 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Delete"'
+[2024-05-04 19:33:00.153 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/1/Delete""" - 302 null "text/html; charset=utf-8" 4511.2131ms
+[2024-05-04 19:33:00.173 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:33:00.303 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:33:00.312 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:33:00.378 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:33:00.936 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 627.542ms
+[2024-05-04 19:33:00.940 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:33:00.978 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:33:01.021 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 80.9376ms
+[2024-05-04 19:33:01.029 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 904.6109ms
+[2024-05-04 19:33:01.036 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:33:01.057 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:33:01.060 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:33:01.083 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 26.2828ms
+[2024-05-04 19:33:01.306 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 245.7937ms
+[2024-05-04 19:33:20.510 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:33:20.536 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:33:20.550 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:33:20.569 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:33:20.604 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:33:20.617 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 51.9788ms
+[2024-05-04 19:33:20.622 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:33:20.640 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 129.702ms
+[2024-05-04 19:33:20.968 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:33:20.971 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:33:21.011 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:33:21.043 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 74.3266ms
+[2024-05-04 19:33:21.308 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 336.8293ms
+[2024-05-04 19:33:22.183 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:33:22.203 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 1192.8957ms
+[2024-05-04 19:39:26.111 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:39:28.149 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:39:28.158 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:39:28.172 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:39:28.181 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:39:28.187 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:39:45.438 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:39:45.456 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:39:45.457 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:39:48.889 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:39:48.890 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:39:49.258 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:39:49.267 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:39:51.069 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:39:52.275 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:39:52.277 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:39:52.277 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:39:52.287 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:39:52.289 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:39:52.717 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:39:54.671 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:39:56.203 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 3950.783ms
+[2024-05-04 19:39:56.355 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:39:56.375 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 10960.0337ms
+[2024-05-04 19:39:58.752 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:40:02.184 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:39:59.681 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:40:02.731 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 499 13758 "application/javascript; charset=utf-8" 3982.4751ms
+[2024-05-04 19:40:02.968 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:40:03.040 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:40:03.056 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:40:03.300 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 3619.4431ms
+[2024-05-04 19:40:11.560 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:40:11.560 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:40:11.560 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:40:11.642 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 19347.8807ms
+[2024-05-04 19:40:12.727 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 20982.1045ms
+[2024-05-04 19:40:12.495 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 9441.7559ms
+[2024-05-04 19:40:12.736 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:40:12.791 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:40:12.813 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:40:12.803 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:40:12.996 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:40:12.825 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:40:15.367 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 29936.6115ms
+[2024-05-04 19:40:16.321 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 30906.3253ms
+[2024-05-04 19:40:12.864 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 128.7327ms
+[2024-05-04 19:40:17.573 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:40:16.739 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 14554.7367ms
+[2024-05-04 19:40:16.747 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 3744.5258ms
+[2024-05-04 19:40:13.055 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 263.6712ms
+[2024-05-04 19:40:26.745 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:40:26.746 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:40:26.864 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 117.9914ms
+[2024-05-04 19:40:26.843 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 97.7956ms
+[2024-05-04 19:40:26.776 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:40:27.063 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:40:27.329 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 552.9379ms
+[2024-05-04 19:48:17.461 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:48:20.843 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:48:20.896 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:48:20.915 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:48:21.021 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:48:21.025 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:48:30.919 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:48:33.771 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:48:34.088 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:48:34.158 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:48:34.194 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:48:34.208 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:48:34.212 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:48:34.870 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 766.5457ms
+[2024-05-04 19:48:35.360 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:48:35.482 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:48:35.499 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 4595.7286ms
+[2024-05-04 19:48:35.540 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 174.6092ms
+[2024-05-04 19:48:35.550 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - null null
+[2024-05-04 19:48:35.553 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:48:35.605 +03:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] The file "/ProductsApp.styles.css" was not modified
+[2024-05-04 19:48:35.669 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/ProductsApp.styles.css""?v=suGxkLXtSEXCG7XYm52rfIpAPwz-AdMhByaNcZuDF7g" - 304 null "text/css" 118.341ms
+[2024-05-04 19:48:36.842 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 1288.6564ms
+[2024-05-04 19:48:39.908 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:48:40.173 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:48:40.188 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:48:40.552 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:48:48.112 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:48:48.738 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 8516.4506ms
+[2024-05-04 19:48:48.819 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:48:48.752 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:48:48.898 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:48:48.819 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:48:48.930 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 9022.253ms
+[2024-05-04 19:48:48.952 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 200.2869ms
+[2024-05-04 19:48:49.001 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
+[2024-05-04 19:48:48.968 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 148.6185ms
+[2024-05-04 19:48:49.285 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 465.7245ms
+[2024-05-04 19:50:20.961 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\Ράνια\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[2024-05-04 19:50:22.854 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "https://localhost:7154"
+[2024-05-04 19:50:23.239 +03:00 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5106"
+[2024-05-04 19:50:23.249 +03:00 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[2024-05-04 19:50:23.254 +03:00 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[2024-05-04 19:50:23.259 +03:00 Microsoft.Hosting.Lifetime [Information] Content root path: "C:\Users\Ράνια\source\repos\ProductsApp\ProductsApp"
+[2024-05-04 19:50:38.410 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/""" - null null
+[2024-05-04 19:50:40.118 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Index"'
+[2024-05-04 19:50:40.538 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[2024-05-04 19:50:40.733 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:50:40.749 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "".
+[2024-05-04 19:50:40.760 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing an implicit handler method - ModelState is Valid
+[2024-05-04 19:50:40.765 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:50:41.132 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Index" in 416.3066ms
+[2024-05-04 19:50:41.194 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Index"'
+[2024-05-04 19:50:41.633 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:50:41.634 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:50:41.942 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/""" - 200 null "text/html; charset=utf-8" 3290.8652ms
+[2024-05-04 19:50:42.108 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 474.4193ms
+[2024-05-04 19:50:42.369 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 736.2957ms
+[2024-05-04 19:50:45.990 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - null null
+[2024-05-04 19:50:46.026 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"/Products/Index"'
+[2024-05-04 19:50:46.096 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+[2024-05-04 19:50:46.403 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executing handler method "ProductsApp.Pages.Products.IndexModel.OnGet" - ModelState is Valid
+[2024-05-04 19:50:49.052 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[2024-05-04 19:50:49.333 +03:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker [Information] Executed page "/Products/Index" in 3233.6407ms
+[2024-05-04 19:50:49.453 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - null null
+[2024-05-04 19:50:49.478 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - null null
+[2024-05-04 19:50:49.473 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[2024-05-04 19:50:49.543 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 70.1455ms
+[2024-05-04 19:50:49.510 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"/Products/Index"'
+[2024-05-04 19:50:49.590 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/~/js/product.js""" - 404 0 null 136.5559ms
+[2024-05-04 19:50:49.817 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 339.8729ms
+[2024-05-04 19:50:49.841 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7154""""/Products/getall""" - 200 null "text/html; charset=utf-8" 3851.3397ms
+[2024-05-04 19:50:49.854 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7154""""/Products/~/js/product.js", Response status code: 404
